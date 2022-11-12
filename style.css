@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Mulish:wght@200&family=Oswald:wght@300;400&display=swap');
+
+html{
+    background: #FDFCFC;
+    border-radius: 10px;
+}
+*{
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+        /* Nav Bar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+.navbar .navbar_left .navbar_left-logo{
+    font-weight: 700;
+    font-size:20px;
+    line-height: 24px;
+}
+
+.navbar .navbar_right .navbar_right-list{
+    display: flex;
+}
+
+.navbar .navbar_right .navbar_right-list > li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+.navbar .navbar_right .navbar_right-list > li > a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #272D38;
+}
+.navbar .navbar_right .navbar_right-list > li:last-child{
+    display: none;
+}
+
+            /* hero-section */
+.hero-section{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 100px;
+}
+
+.hero-section .hero-section_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hero-section .hero-section_left h1 {
+    font-weight: 800;
+    font-size: 64px;
+    max-width: 540px;
+    height: auto;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.hero-section .hero-section_left p{
+    font-weight: 600;
+    font-size: 18px;
+    max-width: 500px;
+    height: auto;
+    line-height: 28px;
+    color: #272D38;
+    text-transform: capitalize;
+}
+
+.hero-section .hero-section_left button{
+    max-width: 167px;
+    height:48px;
+    background: #8EADD5;
+    border-radius: 8px ;
+    border-color: none;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 700;
+}
+
+.hero-section .hero-section_right img{
+    width: 100%;
+}
+
+/* company section */
+.c-section{
+    margin-top: 160px;
+}
+
+.c-section .c-section_img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.c-section .c-section_text{
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* branding-section */
+
+.branding-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 136px;
+}
+
+.branding-section .branding-section_right{
+    flex-direction: column;
+    display: flex;
+
+}
+
+.branding-section .branding-section_right h1{
+    max-width: 435.69px;
+    font-weight: 1000;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #272D38;
+    height: 102.35px;
+
+}
+
+.branding-section .branding-section_right p{
+    margin-top: 26px;
+    display: block;
+    width: 392.2px;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform:capitalize;
+
+}
+.branding-section .branding-section_left img{
+    width: 100%;
+}
+
+
+/* custome section */
+.custome-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 136px;
+}
+
+.custome-section_left{
+    flex-direction: column;
+    display: flex;
+}
+
+.custome-section_left h1{
+    width: 436px;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.custome-section_left p{
+    width:400px;
+    margin-top: 26px;
+    text-transform:capitalize;
+}
+.custome-section_right img{
+    width: 100%;
+}
+
+.navbar .navbar_right .navbar_right-list>li:nth-child(1)>a {
+    position: relative;
+}
+
+.navbar .navbar_right .navbar_right-list>li:nth-child(1)>a::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 60px;
+    height: 30px;
+}
+
+
+                /*t-section  */
+.t-section_heading{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.t-section_heading-first{
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    align-self: center;
+}
+
+.t-section_heading-second{
+    font-weight: 1000;
+    font-size: 48px;
+    line-height: 100%;
+    height: 102.35px;
+    align-self: center;
+    width: 435.69px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+
+.t-section_body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.t-section_body-person{
+    width: 345px;
+    height: 334px;
+    background: #F6F6F6;
+    border-radius: 20px;
+    flex-grow: 1;
+    margin: 0 15px ;
+}
+
+.t-section_body-person-avatar{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 32px 108px 8px 108px;
+}
+
+.t-section_body-person-name{
+    text-align: center;
+}
+
+.t-section_body-person-description{
+    width: 281px;
+    height: 77px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 130%;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 27px;
+}
+
+/* Contact-section */
+.contact-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color:#F6F6F6 ;
+    border-radius: 20px;
+    margin-top: 136px;
+}
+
+.contact-section_right-heading {
+    font-weight: 700;
+    font-size: 48px;
+    width: 361px;   
+    height: 102.1px;
+    line-height: 100%;
+}
+
+.contact-section_right-description{
+    width: 360px;
+    height: 52.05px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 17px;
+    line-height: 28px;
+    color: #272D38;
+}
+
+.contact-section_right-btn{
+    width: 167px;
+    height: 48.05px;
+    background: #8EADD5;
+    border-radius: 8px;
+    color: #fff;
+    text-transform: uppercase;
+    border-style: none;
+    margin-top: 42px;
+}
+
+.contact-section_left img{
+    width: 100%;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 139px;
+    position: relative;
+}
+.footer-list ul{
+    list-style: none;
+}
+.footer-list ul li:nth-child(1){
+    margin-top:32px ;
+}
+
+.footer-list ul li{
+    margin-bottom:24px ;
+}
+
+.footer-logo{
+    height: 237px;
+}
+
+.footer-logo h2{
+    width: 139.74px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom:40px ;
+}
+
+.footer-logo p{
+    width: 189.29px;
+    height: 48px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #272D38;
+}
+
+.footer-note{
+    position: absolute;
+    top: 270px;
+}
